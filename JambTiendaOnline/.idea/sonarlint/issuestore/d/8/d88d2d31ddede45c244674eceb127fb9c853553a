@@ -1,0 +1,17 @@
+
+7	java:S131""Add a default case to this switch.(´¥¼¾
+~
+java:S1989N"hHandle the following exceptions that could be thrown by "processRequest": ServletException, IOException.(‘ŸÑ
+~
+java:S1989\"hHandle the following exceptions that could be thrown by "processRequest": ServletException, IOException.(‘ŸÑ
+X
+java:S2441x"=Make "Usuario" serializable or don't store it in the session.(­ ˆúÿÿÿÿ
+
+java:S1130’"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(İËßë
+f
+java:S1192¶"ODefine a constant instead of duplicating this literal " correctamente" 3 times.(³ìÕì
+r
+java:S1192»"VDefine a constant instead of duplicating this literal "Rellene el formulario" 3 times.(Äîµıÿÿÿÿ
+c
+java:S1192x"HDefine a constant instead of duplicating this literal "usuario" 4 times.(­ ˆúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°îúşÿÿÿÿ

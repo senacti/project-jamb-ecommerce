@@ -1,0 +1,42 @@
+const usuarios = [
+  {id: 1, nombre: "Alexander Fuentes", profesion_id: 1},
+  {id: 2, nombre: "Antonio Fernandez", profesion_id: 1},
+  {id: 3, nombre: "Diego Maradona", profesion_id: 2}
+]
+
+const profesion = {
+  1: 'Programador',
+  2: 'Diseñador'
+}
+
+function getUsuarios(){
+  return new Promise((resolved, reject) => {
+      setTimeout(() => {
+        resolved(usuarios)
+    }, 200)
+  })
+}
+
+function getUsuario(id){
+  return new Promise((resolved, reject) => {
+      setTimeout(() => {
+        resolved(usuarios.filter((usuario) => usuario.id === id)[0])
+      }, 200)
+  })
+}
+
+function getProfesion(id){
+  return new Promise((resolved, reject) => {
+      setTimeout(() => {
+        resolved(profesion[id])
+      }, 200)
+  })
+}
+
+/*getUsuarios()
+  .then((usuarios) => getUsuario(usuarios[1].id))
+  .then((usuario) => getProfesion(usuario.profesion_id))
+  .then((profesion) => console.log('La profesion de Alexander es', profesion))*/
+
+Promise.all([getProfesion(1), getProfesion(2)])
+    .then((response) => console.log(response))

@@ -1,0 +1,34 @@
+
+m
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+<
+java:S1125"'Remove the unnecessary boolean literal.(Çÿ
+m
+java:S2737;"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+B
+java:S11251"'Remove the unnecessary boolean literal.(«Ú©ºıÿÿÿÿ
+m
+java:S2737S"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+B
+java:S1125L"'Remove the unnecessary boolean literal.(«Ú©ºıÿÿÿÿ
+m
+java:S2737d"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+m
+java:S2737}"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+<
+java:S1125r"'Remove the unnecessary boolean literal.(Çÿ
+n
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+n
+java:S2737›"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+=
+java:S1125«"'Remove the unnecessary boolean literal.(Çÿ
+O	java:S106±"9Replace this use of System.out or System.err by a logger.(äìÎÆ
+n
+java:S2737Â"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+]
+java:S1192"HDefine a constant instead of duplicating this literal "nombres" 6 times.(›‹›)
+e
+java:S11924"ODefine a constant instead of duplicating this literal "nombre_usuario" 3 times.(—Î”É
+`
+java:S1192"JDefine a constant instead of duplicating this literal "apellidos" 5 times.(ŒşŒ
